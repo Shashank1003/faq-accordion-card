@@ -30,6 +30,8 @@ hr {
   background-color: #fff;
   width: 950px;
   border-radius: 25px;
+  -webkit-box-shadow: 5px 30px 20px rgba(0, 0, 0, 0.2);
+          box-shadow: 5px 30px 20px rgba(0, 0, 0, 0.2);
 }
 
 .content {
