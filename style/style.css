@@ -1,0 +1,164 @@
+body {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#af67e9), to(#6565e7));
+  background-image: linear-gradient(to bottom, #af67e9, #6565e7);
+  height: 100vh;
+  width: 100vw;
+  font-family: Kumbh Sans, sans-serif;
+  font-weight: 400;
+  color: #1d1e35;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+h2 {
+  font-weight: 700;
+  margin-bottom: 2.5rem;
+}
+
+hr {
+  color: #e7e7e9;
+}
+
+.container {
+  background-color: #fff;
+  width: 950px;
+  border-radius: 25px;
+}
+
+.content {
+  padding: 5rem 5rem 5rem 0;
+  font-size: 0.8rem;
+  position: relative;
+}
+
+.faq {
+  margin-top: 0;
+}
+
+.answer {
+  display: none;
+  color: #787887;
+}
+
+.question-line {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.beforeClick:hover {
+  color: #f47c57;
+  cursor: pointer;
+}
+
+.afterClick {
+  font-weight: 700;
+}
+
+.afterClick:hover {
+  cursor: pointer;
+}
+
+.arrow:hover {
+  cursor: pointer;
+}
+
+.images {
+  background-image: url("../images/illustration-woman-online-desktop.svg"), url("../images/bg-pattern-desktop.svg");
+  background-position: right 5rem bottom 5rem, right 5rem bottom -10rem;
+  background-repeat: no-repeat;
+}
+
+.orange-box {
+  position: relative;
+  top: 12rem;
+  right: 6.8rem;
+}
+
+.line-cuboid {
+  position: absolute;
+  bottom: -160px;
+  right: 100px;
+}
+
+.attribution {
+  position: absolute;
+  left: center;
+  bottom: 20px;
+}
+
+@media screen and (max-width: 990px) {
+  .images {
+    background-image: url("../images/illustration-woman-online-desktop.svg"), url("../images/bg-pattern-desktop.svg");
+    background-position: right 1rem bottom 5rem, right 1rem bottom -10rem;
+    background-repeat: no-repeat;
+  }
+  .orange-box {
+    position: relative;
+    top: 15rem;
+    right: 6.8rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  h2 {
+    text-align: center;
+  }
+  .images {
+    background-image: url("../images/bg-pattern-mobile.svg");
+    background-position: right 20vw bottom 0;
+    background-repeat: no-repeat;
+    height: 7rem;
+    position: relative;
+  }
+  .orange-box {
+    position: absolute;
+    top: -6.6rem;
+    right: 20vw;
+  }
+  .content {
+    padding: 2rem;
+  }
+  .container {
+    margin: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  h2 {
+    text-align: center;
+  }
+  .images {
+    background-image: url("../images/bg-pattern-mobile.svg");
+    background-position: right 9.62vw bottom 0;
+    background-repeat: no-repeat;
+    height: 7rem;
+    position: relative;
+  }
+  .orange-box {
+    position: absolute;
+    top: -6.6rem;
+    right: 10vw;
+  }
+  .content {
+    padding: 2rem;
+  }
+  .container {
+    margin: 1.5rem;
+  }
+}
+/*# sourceMappingURL=style.css.map */
